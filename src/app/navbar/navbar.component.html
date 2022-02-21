@@ -1,0 +1,10 @@
+<nav class="navbar navbar-expand-md sticky-top" (scroll)="onWindowScroll();" [class.navActive]="navBar">
+           <div class="logo" >Logo</div>
+        <ul class="nav_links">
+            <li><a routerLink="/" routerlinksActive="active"> Home</a></li>
+            <li><a  routerLink="/service" routerlinksActive="active">Service</a></li>
+            <li><a routerLink="/about" routerlinksActive="active">About Us</a></li>
+            <li><a routerLink="/contact" routerlinksActive="active">Contact</a></li>
+        </ul>
+        <a class="cta" href=""><button>Get In Touch</button></a>
+    </nav>

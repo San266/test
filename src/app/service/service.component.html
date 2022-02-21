@@ -1,0 +1,78 @@
+<section class="service">
+    <div class="title">
+        
+    <p>SHIVGIRI SHOP<br><span>CATALOG</span></p>
+    </div>
+    <div class="imggallery">
+			
+        <div class="row">
+            <div class="img_itm" *ngFor="let item of  galleryItems">
+                <img src={{item.imgUrl}}>
+                <h5>{{item.title}}</h5>
+                <button routerLink="{{item.id}}">VIEW DETAILS</button>
+            </div>
+           <!--   <div class="img_itm">
+                <img src="./assets/imgs/matta_rice.jpg" alt="">
+                <h5>PAR-BOILED RICE</h5>
+                <a routerLink="productinfo">VIEW DETAILS  </a>
+            </div>
+           <div class="img_itm">
+                <img src="./assets/imgs/coffeeseed.jpg" alt="">
+                <h5>COFFEE SEEDS</h5>
+                <button>VIEW DETAILS  </button>
+            </div>
+            <div class="img_itm">
+            <img src="./assets/imgs/black_pepper.jpg" alt="">
+            <h5>BLACK PEPPER</h5>
+            <button>VIEW DETAILS  </button>
+            </div> -->
+        </div>
+        <!-- <div class="row2">
+            <div class="img_itm">
+                <img src="./assets/imgs/tumeric.jpg" alt="">
+                <h5>Turmeric</h5>
+                <button>VIEW DETAILS  </button>
+            </div>
+            <div class="img_itm">
+                <img src="./assets/imgs/cardamon.jpg" alt="">
+                <h5>CARDAMON</h5>
+                <button>VIEW DETAILS  </button>
+            </div>
+            <div class="img_itm">
+                <img src="./assets/imgs/cinnamon.jpeg" alt="">
+                <h5>CINNAMON</h5>
+                <button>VIEW DETAILS  </button>
+            </div>
+            <div class="img_itm">
+            <img src="./assets/imgs/Bay_leaf.jpg" alt="">
+            <h5>BAY-LEAF</h5>
+            <button>VIEW DETAILS  </button>
+            </div>
+        </div>
+        <div class="row3">
+            <div class="img_itm">
+                <img src="./assets/imgs/anise_star.jpg" alt="">
+                <h5>anise_star</h5>
+                <button>VIEW DETAILS  </button>
+            </div>
+            <div class="img_itm">
+                <img src="./assets/imgs/cloves.jpg" alt="">
+                <h5>cloves</h5>
+                <button>VIEW DETAILS  </button>
+            </div>
+            <div class="img_itm">
+                <img src="./assets/imgs/copra.jpg" alt="">
+                <h5>COPRA</h5>
+                <button>VIEW DETAILS  </button>
+            </div>
+            <div class="img_itm">
+            <img src="./assets/imgs/Ginger.jpg" alt="">
+            <h5>Dried Ginger</h5>
+            <button>VIEW DETAILS  </button>
+            </div>
+        </div> -->
+    </div>
+
+    
+
+</section>
